@@ -16,7 +16,7 @@ public class LoginController {
     @PostMapping("/login")
     @ApiOperation("用户登陆")
     public CommonReturn loginUser(String userName,@ApiParam() String passWord){
-
+        System.out.println("asdadasd");
         return CommonReturn.success();
     }
 }

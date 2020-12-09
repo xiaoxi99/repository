@@ -1,4 +1,4 @@
-package com.fh.utils.codeGather;
+package com.fh.codeGather;
 
 public enum ReturnCode {
     SUCCESS(200,"操作成功"),

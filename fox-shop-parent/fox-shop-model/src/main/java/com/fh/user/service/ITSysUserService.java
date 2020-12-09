@@ -1,7 +1,7 @@
 package com.fh.user.service;
 
-import com.baomidou.mybatisplus.extension.service.IService;
 import com.fh.user.entity.TSysUser;
+import com.baomidou.mybatisplus.extension.service.IService;
 
 /**
  * <p>
@@ -9,7 +9,7 @@ import com.fh.user.entity.TSysUser;
  * </p>
  *
  * @author liqiang
- * @since 2020-12-07
+ * @since 2020-12-09
  */
 public interface ITSysUserService extends IService<TSysUser> {
 

@@ -1,9 +1,7 @@
 package com.fh.user.mapper;
 
-import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 import com.fh.user.entity.TSysUser;
-import org.apache.ibatis.annotations.Mapper;
-import org.springframework.stereotype.Repository;
+import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 
 /**
  * <p>
@@ -11,10 +9,8 @@ import org.springframework.stereotype.Repository;
  * </p>
  *
  * @author liqiang
- * @since 2020-12-07
+ * @since 2020-12-09
  */
-@Repository
-@Mapper
 public interface TSysUserMapper extends BaseMapper<TSysUser> {
 
 }

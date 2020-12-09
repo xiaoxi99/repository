@@ -1,4 +1,4 @@
-package com.fh.utils.codeGather;
+package com.fh.codeGather;
 
 import io.swagger.annotations.ApiModelProperty;
 
@@ -20,7 +20,7 @@ public class CommonReturn {
     public static CommonReturn success(ReturnCode returnCode) {
         return new CommonReturn(returnCode.getCode(), returnCode.getMsg());
     }
-    public static CommonReturn success(ReturnCode returnCode, Object data) {
+    public static CommonReturn success(ReturnCode returnCode,Object data) {
         return new CommonReturn(returnCode.getCode(),returnCode.getMsg(),data);
     }
 
@@ -35,7 +35,7 @@ public class CommonReturn {
     public static CommonReturn error(ReturnCode returnCode) {
         return new CommonReturn(returnCode.getCode(), returnCode.getMsg());
     }
-    public static CommonReturn error(ReturnCode returnCode, Object data) {
+    public static CommonReturn error(ReturnCode returnCode,Object data) {
         return new CommonReturn(returnCode.getCode(), returnCode.getMsg(),data);
     }
 

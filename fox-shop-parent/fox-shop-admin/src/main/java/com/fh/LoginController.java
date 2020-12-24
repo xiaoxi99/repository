@@ -21,7 +21,6 @@ public class LoginController {
 
     @Resource
     private IUmsAdminService adminService;
-    private static final String pre_token = "ACCESS_TOKEN:";
 
     @PostMapping("/login")
     @ApiOperation("用户登陆")

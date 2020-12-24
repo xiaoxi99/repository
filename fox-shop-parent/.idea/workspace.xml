@@ -8,15 +8,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b9cf60ce-e76d-4dca-bc79-5a00efff4368" name="Default" comment="成功启动">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_6_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_11_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_10.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_2_3_4_RELEASE.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fox-shop-admin/fox-shop-admin.iml" beforeDir="false" afterPath="$PROJECT_DIR$/fox-shop-admin/fox-shop-admin.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fox-shop-admin/src/main/java/com/fh/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/fox-shop-admin/src/main/java/com/fh/LoginController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fox-shop-admin/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/fox-shop-admin/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fox-shop-admin/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/fox-shop-admin/target/classes/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fox-shop-admin/target/classes/com/fh/LoginController.class" beforeDir="false" afterPath="$PROJECT_DIR$/fox-shop-admin/target/classes/com/fh/LoginController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fox-shop-web/src/components/page/Permission.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fox-shop-web/src/components/page/Upload.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fox-shop-web/src/components/page/VueEditor.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fox-shop-web/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/fox-shop-web/src/router/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fox-shop-admin/target/classes/testMain.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fox-shop-commons/fox-shop-commons.iml" beforeDir="false" afterPath="$PROJECT_DIR$/fox-shop-commons/fox-shop-commons.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fox-shop-model/fox-shop-model.iml" beforeDir="false" afterPath="$PROJECT_DIR$/fox-shop-model/fox-shop-model.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fox-shop-mybatis-plus-generator/fox-shop-mybatis-plus-generator.iml" beforeDir="false" afterPath="$PROJECT_DIR$/fox-shop-mybatis-plus-generator/fox-shop-mybatis-plus-generator.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fox-shop-parent.iml" beforeDir="false" afterPath="$PROJECT_DIR$/fox-shop-parent.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fox-shop-qms/fox-shop-qms.iml" beforeDir="false" afterPath="$PROJECT_DIR$/fox-shop-qms/fox-shop-qms.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fox-shop-system/fox-shop-system.iml" beforeDir="false" afterPath="$PROJECT_DIR$/fox-shop-system/fox-shop-system.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fox-shop-ums/fox-shop-ums.iml" beforeDir="false" afterPath="$PROJECT_DIR$/fox-shop-ums/fox-shop-ums.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -283,10 +292,10 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Problems" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="ReactorSettings">
@@ -452,8 +461,11 @@
     </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpringBeansView">
+    <option name="beanDetailsProportion" value="0.3" />
+  </component>
   <component name="SvnConfiguration">
-    <configuration />
+    <configuration>C:\Users\xiaoxiplus\AppData\Roaming\Subversion</configuration>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -483,7 +495,7 @@
       <workItem from="1608776774883" duration="649000" />
       <workItem from="1608777443502" duration="2831000" />
       <workItem from="1608780913730" duration="56000" />
-      <workItem from="1608781089870" duration="5565000" />
+      <workItem from="1608781089870" duration="16111000" />
     </task>
     <task id="LOCAL-00001" summary="成功启动">
       <created>1607476763248</created>
@@ -506,7 +518,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608779547285</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="提交">
+      <created>1608792265957</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1608792265957</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -665,7 +684,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="成功启动" />
-    <option name="LAST_COMMIT_MESSAGE" value="成功启动" />
+    <MESSAGE value="提交" />
+    <option name="LAST_COMMIT_MESSAGE" value="提交" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

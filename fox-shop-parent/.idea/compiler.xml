@@ -11,7 +11,9 @@
         <module name="fox-shop-commons" />
         <module name="fox-shop-model" />
         <module name="fox-shop-mybatis-plus-generator" />
+        <module name="fox-shop-qms" />
         <module name="fox-shop-system" />
+        <module name="fox-shop-ums" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -20,7 +22,9 @@
       <module name="fox-shop-model" target="1.8" />
       <module name="fox-shop-mybatis-plus-generator" target="1.8" />
       <module name="fox-shop-parent" target="1.8" />
+      <module name="fox-shop-qms" target="1.8" />
       <module name="fox-shop-system" target="1.8" />
+      <module name="fox-shop-ums" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

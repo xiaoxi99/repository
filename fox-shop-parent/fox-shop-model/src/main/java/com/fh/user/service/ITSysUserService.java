@@ -1,16 +1,11 @@
 package com.fh.user.service;
 
-import com.fh.user.entity.TSysUser;
 import com.baomidou.mybatisplus.extension.service.IService;
+import com.fh.user.entity.TSysUser;
+import org.springframework.stereotype.Service;
 
-/**
- * <p>
- *  服务类
- * </p>
- *
- * @author liqiang
- * @since 2020-12-09
- */
+@Service
 public interface ITSysUserService extends IService<TSysUser> {
 
 }
+

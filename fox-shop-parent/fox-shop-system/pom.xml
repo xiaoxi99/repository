@@ -14,13 +14,13 @@
     <dependencies>
         <dependency>
             <groupId>com.fh</groupId>
-            <artifactId>fox-shop-commons</artifactId>
+            <artifactId>fox-shop-model</artifactId>
             <version>1.0-SNAPSHOT</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
             <groupId>com.fh</groupId>
-            <artifactId>fox-shop-model</artifactId>
+            <artifactId>fox-shop-commons</artifactId>
             <version>1.0-SNAPSHOT</version>
             <scope>compile</scope>
         </dependency>

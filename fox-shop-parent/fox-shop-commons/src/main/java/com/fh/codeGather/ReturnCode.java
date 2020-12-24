@@ -8,7 +8,8 @@ public enum ReturnCode {
     USER_PASSWORD_ERROR(5003,"密码有误"),
     SYSTEM_ERROR(5004,"代码执行异常，请联系管理员"),
     LEAVE_TIME_ERROR(5005,"请假时间选择有误"),
-    LOGIN_DISABLED(5100,"登陆失效，请重新登陆")
+    LOGIN_DISABLED(5100,"登陆失效，请重新登陆"),
+    NO_PERMISSION(403,"暂时没有该权限"),
     ;
     private Integer code;
     private String msg;

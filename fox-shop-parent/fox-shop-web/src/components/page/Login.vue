@@ -28,11 +28,13 @@
 </template>
 
 <script>
-    export default {
+
+import {fetchData} from "../../api/procudtCategory";
+export default {
         data: function () {
             let checkUserName = (rule, value, callback) => {
                 setTimeout(() => {
-                    if (value.length <= 3 || value.length >= 12) {
+                    if (value.length < 3 || value.length > 12) {
                         return callback(new Error('长度在3位到12位之间'))
                     } else {
                         return callback();
@@ -41,7 +43,7 @@
             };
 
             let validatePassword = (rule, value, callback) => {
-                    if (value.length <= 3 || value.length >= 12) {
+                    if (value.length < 3 || value.length > 12) {
                         return callback(new Error('长度在3位到12位之间'));
                     } else {
                         return callback();
@@ -64,8 +66,15 @@
             submitForm() {
                 this.$refs.login.validate(valid => {
                     if (valid) {
-                        this.$http.post("/loginController/login",[this.username,this.password]).then(result=>{
-                            alert(result.data.code);
+                        fetchData({username:this.param.username,password:this.param.password}).then(res=>{
+                            if (res.data.code == 200){
+                                this.$message.success("登陆成功");
+                                localStorage.setItem("token",res.data.data);
+                                localStorage.setItem("ms_username",this.param.username);
+                                this.$router.push("/");
+                            } else{
+                                this.$message.error(res.data.code);
+                            }
                         })
 
                     } else {

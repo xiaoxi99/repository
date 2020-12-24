@@ -38,6 +38,7 @@ public class LoginController {
         if (StringUtils.isBlank(username) || StringUtils.isBlank(password)) {
             return CommonReturn.error(ReturnCode.USERNAME_PASSWORD_NULL);
         }
+        System.out.println("asdasd");
         String token = adminService.login(username, password);
         if (token == null){
             return CommonReturn.error(ReturnCode.LOGIN_DISABLED);

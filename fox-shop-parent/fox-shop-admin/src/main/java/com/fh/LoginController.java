@@ -7,8 +7,6 @@ import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import io.swagger.annotations.ApiParam;
 import org.apache.commons.lang3.StringUtils;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
@@ -23,12 +21,6 @@ public class LoginController {
 
     @Resource
     private IUmsAdminService adminService;
-    @Autowired
-    private JwtUtil jwtUtil;
-    @Autowired
-    //redis的操作类，相当于jedisUtil
-    private RedisTemplate redisTemplate;
-
     private static final String pre_token = "ACCESS_TOKEN:";
 
     @PostMapping("/login")
@@ -38,7 +30,6 @@ public class LoginController {
         if (StringUtils.isBlank(username) || StringUtils.isBlank(password)) {
             return CommonReturn.error(ReturnCode.USERNAME_PASSWORD_NULL);
         }
-        System.out.println("asdasd");
         String token = adminService.login(username, password);
         if (token == null){
             return CommonReturn.error(ReturnCode.LOGIN_DISABLED);

@@ -24,7 +24,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <spring-boot.version>2.3.4.RELEASE</spring-boot.version>
-        <docker.host>http://192.168.226.136:2375</docker.host>
+        <docker.host>http://192.168.230.136:2375</docker.host>
         <docker.maven.plugin.version>1.2.2</docker.maven.plugin.version>
     </properties>
 

@@ -7,7 +7,158 @@
     <bookmark url="file://$PROJECT_DIR$/fox-shop-web/src/components/page/pms/product/ProductDetail.vue" line="163" mnemonic="9" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b9cf60ce-e76d-4dca-bc79-5a00efff4368" name="Default" comment="成功启动" />
+    <list default="true" id="b9cf60ce-e76d-4dca-bc79-5a00efff4368" name="Default" comment="成功启动">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fox-shop-admin/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fox-shop-admin/target/classes/com/fh/FoxShopAdminApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fox-shop-admin/target/classes/com/fh/LoginController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fox-shop-admin/target/classes/com/fh/authorization/AuthorizationAop.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fox-shop-admin/target/classes/com/fh/authorization/LoginAnnotation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fox-shop-admin/target/classes/com/fh/interceptor/CrosHandlerInterceptor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fox-shop-admin/target/classes/com/fh/interceptor/springMVCConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fox-shop-admin/target/classes/com/fh/springSecurity/filter/JwtAuthenticationTokenFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fox-shop-admin/target/classes/com/fh/springSecurity/filter/RestAuthenticationEntryPoint.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fox-shop-admin/target/classes/com/fh/springSecurity/filter/RestfulAccessDeniedHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fox-shop-admin/target/classes/com/fh/springSecurity/securityConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fox-shop-admin/target/classes/com/fh/springSecurity/vo/AdminDetails.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fox-shop-commons/target/classes/com/fh/JwtUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fox-shop-commons/target/classes/com/fh/MD5Util.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fox-shop-commons/target/classes/com/fh/OssUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fox-shop-commons/target/classes/com/fh/SecurityJwtUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fox-shop-commons/target/classes/com/fh/cache/FastJsonRedisSerializer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fox-shop-commons/target/classes/com/fh/cache/RedisCacheConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fox-shop-commons/target/classes/com/fh/codeGather/CommonReturn.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fox-shop-commons/target/classes/com/fh/codeGather/ReturnCode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fox-shop-model/target/classes/com/fh/brand/entity/PmsBrand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fox-shop-model/target/classes/com/fh/brand/mapper/PmsBrandMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fox-shop-model/target/classes/com/fh/brand/service/IPmsBrandService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fox-shop-model/target/classes/com/fh/brand/service/impl/PmsBrandServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fox-shop-model/target/classes/com/fh/member_price/controller/PmsMemberPriceController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fox-shop-model/target/classes/com/fh/member_price/entity/PmsMemberPrice.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fox-shop-model/target/classes/com/fh/member_price/mapper/PmsMemberPriceMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fox-shop-model/target/classes/com/fh/member_price/service/IPmsMemberPriceService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fox-shop-model/target/classes/com/fh/member_price/service/impl/PmsMemberPriceServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fox-shop-model/target/classes/com/fh/pms_product_attribute/entity/Category.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fox-shop-model/target/classes/com/fh/pms_product_attribute/entity/PmsProductAttribute.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fox-shop-model/target/classes/com/fh/pms_product_attribute/entity/vo/PmsProductAttributeVo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fox-shop-model/target/classes/com/fh/pms_product_attribute/mapper/CategoryMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fox-shop-model/target/classes/com/fh/pms_product_attribute/mapper/PmsProductAttributeMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fox-shop-model/target/classes/com/fh/pms_product_attribute/service/ICategoryService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fox-shop-model/target/classes/com/fh/pms_product_attribute/service/IPmsProductAttributeService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fox-shop-model/target/classes/com/fh/pms_product_attribute/service/impl/CategoryServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fox-shop-model/target/classes/com/fh/pms_product_attribute/service/impl/PmsProductAttributeServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fox-shop-model/target/classes/com/fh/product/entity/PmsProduct.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fox-shop-model/target/classes/com/fh/product/entity/vo/PmsProductVO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fox-shop-model/target/classes/com/fh/product/mapper/PmsProductMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fox-shop-model/target/classes/com/fh/product/service/IPmsProductService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fox-shop-model/target/classes/com/fh/product/service/impl/PmsProductServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fox-shop-model/target/classes/com/fh/productAttributeValue/controller/PmsProductAttributeValueController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fox-shop-model/target/classes/com/fh/productAttributeValue/entity/PmsProductAttributeValue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fox-shop-model/target/classes/com/fh/productAttributeValue/mapper/PmsProductAttributeValueMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fox-shop-model/target/classes/com/fh/productAttributeValue/service/IPmsProductAttributeValueService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fox-shop-model/target/classes/com/fh/productAttributeValue/service/impl/PmsProductAttributeValueServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fox-shop-model/target/classes/com/fh/productCategory/entity/PmsProductCategory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fox-shop-model/target/classes/com/fh/productCategory/entity/vo/PmsProductCategoryVo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fox-shop-model/target/classes/com/fh/productCategory/mapper/PmsProductCategoryMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fox-shop-model/target/classes/com/fh/productCategory/service/IPmsProductCategoryService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fox-shop-model/target/classes/com/fh/productCategory/service/impl/PmsProductCategoryServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fox-shop-model/target/classes/com/fh/productFullReduction/controller/PmsProductFullReductionController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fox-shop-model/target/classes/com/fh/productFullReduction/entity/PmsProductFullReduction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fox-shop-model/target/classes/com/fh/productFullReduction/mapper/PmsProductFullReductionMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fox-shop-model/target/classes/com/fh/productFullReduction/service/IPmsProductFullReductionService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fox-shop-model/target/classes/com/fh/productFullReduction/service/impl/PmsProductFullReductionServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fox-shop-model/target/classes/com/fh/productLader/controller/PmsProductLadderController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fox-shop-model/target/classes/com/fh/productLader/entity/PmsProductLadder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fox-shop-model/target/classes/com/fh/productLader/mapper/PmsProductLadderMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fox-shop-model/target/classes/com/fh/productLader/service/IPmsProductLadderService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fox-shop-model/target/classes/com/fh/productLader/service/impl/PmsProductLadderServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fox-shop-model/target/classes/com/fh/stuTock/controller/PmsSkuStockController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fox-shop-model/target/classes/com/fh/stuTock/entity/PmsSkuStock.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fox-shop-model/target/classes/com/fh/stuTock/mapper/PmsSkuStockMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fox-shop-model/target/classes/com/fh/stuTock/service/IPmsSkuStockService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fox-shop-model/target/classes/com/fh/stuTock/service/impl/PmsSkuStockServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fox-shop-model/target/classes/com/fh/umsAdmin/entity/UmsAdmin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fox-shop-model/target/classes/com/fh/umsAdmin/entity/UmsAdminRoleRelation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fox-shop-model/target/classes/com/fh/umsAdmin/mapper/UmsAdminMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fox-shop-model/target/classes/com/fh/umsAdmin/mapper/UmsAdminRoleRelationMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fox-shop-model/target/classes/com/fh/umsMenu/entity/UmsMenu.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fox-shop-model/target/classes/com/fh/umsMenu/mapper/UmsMenuMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fox-shop-model/target/classes/com/fh/umsResource/entity/UmsResource.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fox-shop-model/target/classes/com/fh/umsResource/entity/UmsResourceCategory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fox-shop-model/target/classes/com/fh/umsResource/entity/vo/UmsResourceVo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fox-shop-model/target/classes/com/fh/umsResource/mapper/UmsResourceCategoryMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fox-shop-model/target/classes/com/fh/umsResource/mapper/UmsResourceMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fox-shop-model/target/classes/com/fh/umsResource/service/IUmsResourceCategoryService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fox-shop-model/target/classes/com/fh/umsResource/service/IUmsResourceService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fox-shop-model/target/classes/com/fh/umsResource/service/impl/UmsResourceCategoryServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fox-shop-model/target/classes/com/fh/umsResource/service/impl/UmsResourceServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fox-shop-model/target/classes/com/fh/umsResource/textMain.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fox-shop-model/target/classes/com/fh/umsRole/entity/RoleMenuVo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fox-shop-model/target/classes/com/fh/umsRole/entity/UmsRole.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fox-shop-model/target/classes/com/fh/umsRole/entity/UmsRoleMenuRelation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fox-shop-model/target/classes/com/fh/umsRole/entity/UmsRoleResourceRelation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fox-shop-model/target/classes/com/fh/umsRole/mapper/UmsRoleMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fox-shop-model/target/classes/com/fh/umsRole/mapper/UmsRoleMenuRelationMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fox-shop-model/target/classes/com/fh/umsRole/mapper/UmsRoleResourceRelationMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fox-shop-model/target/classes/com/fh/umsRole/service/IUmsRoleMenuRelationService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fox-shop-model/target/classes/com/fh/umsRole/service/IUmsRoleResourceRelationService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fox-shop-model/target/classes/com/fh/umsRole/service/IUmsRoleService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fox-shop-model/target/classes/com/fh/umsRole/service/impl/UmsRoleMenuRelationServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fox-shop-model/target/classes/com/fh/umsRole/service/impl/UmsRoleResourceRelationServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fox-shop-model/target/classes/com/fh/umsRole/service/impl/UmsRoleServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fox-shop-model/target/classes/com/fh/ums_member/entity/Level.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fox-shop-model/target/classes/com/fh/ums_member/mapper/LevelMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fox-shop-model/target/classes/com/fh/ums_member/service/ILevelService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fox-shop-model/target/classes/com/fh/ums_member/service/impl/LevelServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fox-shop-model/target/classes/com/fh/user/controller/TSysUserController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fox-shop-model/target/classes/com/fh/user/entity/TSysUser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fox-shop-model/target/classes/com/fh/user/mapper/TSysUserMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fox-shop-model/target/classes/com/fh/user/service/ITSysUserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fox-shop-model/target/classes/com/fh/user/service/impl/TSysUserServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fox-shop-model/target/classes/mapper/CategoryMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fox-shop-model/target/classes/mapper/LevelMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fox-shop-model/target/classes/mapper/PmsBrandMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fox-shop-model/target/classes/mapper/PmsMemberPriceMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fox-shop-model/target/classes/mapper/PmsProductAttributeMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fox-shop-model/target/classes/mapper/PmsProductAttributeValueMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fox-shop-model/target/classes/mapper/PmsProductCategoryMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fox-shop-model/target/classes/mapper/PmsProductFullReductionMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fox-shop-model/target/classes/mapper/PmsProductLadderMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fox-shop-model/target/classes/mapper/PmsProductMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fox-shop-model/target/classes/mapper/PmsSkuStockMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fox-shop-model/target/classes/mapper/TSysUserMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fox-shop-model/target/classes/mapper/UmsAdminMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fox-shop-model/target/classes/mapper/UmsAdminRoleRelationMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fox-shop-model/target/classes/mapper/UmsMenuMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fox-shop-model/target/classes/mapper/UmsResourceCategoryMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fox-shop-model/target/classes/mapper/UmsResourceMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fox-shop-model/target/classes/mapper/UmsRoleMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fox-shop-model/target/classes/mapper/UmsRoleMenuRelationMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fox-shop-model/target/classes/mapper/UmsRoleResourceRelationMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fox-shop-qms/target/classes/com/fh/brand/controller/PmsBrandController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fox-shop-qms/target/classes/com/fh/pms/controller/PmsProductCategoryController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fox-shop-qms/target/classes/com/fh/product/controller/PmsProductController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fox-shop-qms/target/classes/com/fh/productAttribute/controller/CategoryController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fox-shop-qms/target/classes/com/fh/productAttribute/controller/PmsProductAttributeController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fox-shop-system/fox-shop-system.iml" beforeDir="false" afterPath="$PROJECT_DIR$/fox-shop-system/fox-shop-system.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fox-shop-system/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/fox-shop-system/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fox-shop-ums/target/classes/com/fh/menu/controller/UmsMenuController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fox-shop-ums/target/classes/com/fh/menu/service/IUmsMenuService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fox-shop-ums/target/classes/com/fh/menu/service/impl/UmsMenuServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fox-shop-ums/target/classes/com/fh/resource/controller/UmsResourceCategoryController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fox-shop-ums/target/classes/com/fh/resource/controller/UmsResourceController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fox-shop-ums/target/classes/com/fh/role/controller/UmsRoleController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fox-shop-ums/target/classes/com/fh/role/controller/UmsRoleMenuRelationController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fox-shop-ums/target/classes/com/fh/role/controller/UmsRoleResourceRelationController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fox-shop-ums/target/classes/com/fh/umsAdmin/controller/UmsAdminController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fox-shop-ums/target/classes/com/fh/umsAdmin/controller/UmsAdminRoleRelationController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fox-shop-ums/target/classes/com/fh/umsAdmin/service/IUmsAdminRoleRelationService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fox-shop-ums/target/classes/com/fh/umsAdmin/service/IUmsAdminService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fox-shop-ums/target/classes/com/fh/umsAdmin/service/impl/UmsAdminRoleRelationServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fox-shop-ums/target/classes/com/fh/umsAdmin/service/impl/UmsAdminServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fox-shop-ums/target/classes/com/fh/ums_member/controller/LevelController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -138,10 +289,10 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/fox-shop-commons/src/main/java/com/fh/SecurityJwtUtils.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/fox-shop-model/src/main/resources/mapper/UmsMenuMapper.xml" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/fox-shop-model/src/main/resources/mapper/UmsResourceMapper.xml" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/fox-shop-model/src/main/resources/mapper/PmsProductCategoryMapper.xml" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/fox-shop-model/src/main/resources/mapper/UmsRoleMapper.xml" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/fox-shop-model/src/main/resources/mapper/UmsResourceMapper.xml" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/fox-shop-model/src/main/resources/mapper/UmsMenuMapper.xml" root0="SKIP_INSPECTION" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -483,6 +634,7 @@
       <workItem from="1609032789557" duration="1081000" />
       <workItem from="1609037042986" duration="3406000" />
       <workItem from="1609056239712" duration="1334000" />
+      <workItem from="1609057777861" duration="1474000" />
     </task>
     <task id="LOCAL-00001" summary="成功启动">
       <created>1607476763248</created>
@@ -512,7 +664,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608792265957</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="成功启动">
+      <created>1609057819286</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1609057819286</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -670,9 +829,9 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="成功启动" />
     <MESSAGE value="提交" />
-    <option name="LAST_COMMIT_MESSAGE" value="提交" />
+    <MESSAGE value="成功启动" />
+    <option name="LAST_COMMIT_MESSAGE" value="成功启动" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -697,6 +856,9 @@
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="true" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/fox_shop_parent$FoxShopAdminApplication.ic" NAME="FoxShopAdminApplication Coverage Results" MODIFIED="1609057868360" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/fox-shop-web/src/components/page/pms/product/ProductSaleDetail.vue">

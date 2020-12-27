@@ -8,23 +8,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b9cf60ce-e76d-4dca-bc79-5a00efff4368" name="Default" comment="成功启动">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_6_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_11_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_10.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_2_3_4_RELEASE.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fox-shop-admin/fox-shop-admin.iml" beforeDir="false" afterPath="$PROJECT_DIR$/fox-shop-admin/fox-shop-admin.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fox-shop-admin/src/main/java/com/fh/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/fox-shop-admin/src/main/java/com/fh/LoginController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fox-shop-admin/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/fox-shop-admin/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fox-shop-admin/target/classes/com/fh/LoginController.class" beforeDir="false" afterPath="$PROJECT_DIR$/fox-shop-admin/target/classes/com/fh/LoginController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fox-shop-admin/target/classes/testMain.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fox-shop-commons/fox-shop-commons.iml" beforeDir="false" afterPath="$PROJECT_DIR$/fox-shop-commons/fox-shop-commons.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fox-shop-model/fox-shop-model.iml" beforeDir="false" afterPath="$PROJECT_DIR$/fox-shop-model/fox-shop-model.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fox-shop-mybatis-plus-generator/fox-shop-mybatis-plus-generator.iml" beforeDir="false" afterPath="$PROJECT_DIR$/fox-shop-mybatis-plus-generator/fox-shop-mybatis-plus-generator.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fox-shop-parent.iml" beforeDir="false" afterPath="$PROJECT_DIR$/fox-shop-parent.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fox-shop-qms/fox-shop-qms.iml" beforeDir="false" afterPath="$PROJECT_DIR$/fox-shop-qms/fox-shop-qms.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fox-shop-system/fox-shop-system.iml" beforeDir="false" afterPath="$PROJECT_DIR$/fox-shop-system/fox-shop-system.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fox-shop-ums/fox-shop-ums.iml" beforeDir="false" afterPath="$PROJECT_DIR$/fox-shop-ums/fox-shop-ums.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fox-shop-admin/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/fox-shop-admin/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -156,11 +141,11 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/fox-shop-model/src/main/resources/mapper/PmsProductCategoryMapper.xml" root0="SKIP_INSPECTION" />
-    <setting file="file://$PROJECT_DIR$/fox-shop-model/src/main/resources/mapper/UmsRoleMapper.xml" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/fox-shop-model/src/main/resources/mapper/UmsResourceMapper.xml" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/fox-shop-model/src/main/resources/mapper/UmsMenuMapper.xml" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/fox-shop-commons/src/main/java/com/fh/SecurityJwtUtils.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/fox-shop-model/src/main/resources/mapper/PmsProductCategoryMapper.xml" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/fox-shop-model/src/main/resources/mapper/UmsRoleMapper.xml" root0="SKIP_INSPECTION" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -295,7 +280,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="ReactorSettings">
@@ -325,17 +310,6 @@
   <component name="RunManager">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -496,6 +470,13 @@
       <workItem from="1608777443502" duration="2831000" />
       <workItem from="1608780913730" duration="56000" />
       <workItem from="1608781089870" duration="16111000" />
+      <workItem from="1609031408380" duration="16000" />
+      <workItem from="1609031437535" duration="18000" />
+      <workItem from="1609031796222" duration="40000" />
+      <workItem from="1609032291356" duration="106000" />
+      <workItem from="1609032581032" duration="190000" />
+      <workItem from="1609032789557" duration="1081000" />
+      <workItem from="1609037042986" duration="3406000" />
     </task>
     <task id="LOCAL-00001" summary="成功启动">
       <created>1607476763248</created>

@@ -93,4 +93,10 @@ public class PmsBrandController {
         return CommonReturn.success();
     }
 
+    @GetMapping("/queryBrandEcharts")
+    public CommonReturn queryBrandEcharts(){
+        PmsBrand brand = iPmsBrandService.getById(id);
+        return CommonReturn.success(brand);
+    }
+
 }

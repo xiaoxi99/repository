@@ -1,5 +1,6 @@
-package com.fh;
+package com.fh.login;
 
+import com.fh.authorization.LoginAnnotation;
 import com.fh.codeGather.CommonReturn;
 import com.fh.codeGather.ReturnCode;
 import com.fh.umsAdmin.service.IUmsAdminService;
@@ -24,13 +25,14 @@ public class LoginController {
 
     @PostMapping("/login")
     @ApiOperation("用户登陆")
+    @LoginAnnotation("用户登陆")
     public CommonReturn loginUser(@RequestParam("username") @ApiParam(value = "用户名", required = true, type = "String") String username,
                                   @RequestParam("password") @ApiParam(value = "用户密码", required = true, type = "String") String password) {
         if (StringUtils.isBlank(username) || StringUtils.isBlank(password)) {
             return CommonReturn.error(ReturnCode.USERNAME_PASSWORD_NULL);
         }
         String token = adminService.login(username, password);
-        if (token == null){
+        if (token == null) {
             return CommonReturn.error(ReturnCode.LOGIN_DISABLED);
         }
 

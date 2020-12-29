@@ -51,3 +51,10 @@ export function updateFactoryStatus(param) {
     });
 };
 
+export function queryBrandEcharts() {
+    return request({
+        url: '/wow-api/brand/pms-brand/queryBrandEcharts',
+        method: 'get',
+    });
+};
+

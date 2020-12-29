@@ -36,6 +36,11 @@ export default new Router({
                     meta: {title: '商品管理'}
                 },
                 {
+                    path: '/brandCount',
+                    component: () => import(/* webpackChunkName: "table" */ '../components/page/pms/brandEcharts.vue'),
+                    meta: {title: '商品管理'}
+                },
+                {
                     path: '/ProductAdd',
                     component: () => import(/* webpackChunkName: "table" */ '../components/page/pms/product/ProductAdd.vue'),
                     meta: {title: '商品维护'}

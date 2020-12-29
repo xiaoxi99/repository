@@ -7,10 +7,49 @@
     <bookmark url="file://$PROJECT_DIR$/fox-shop-web/src/components/page/pms/product/ProductDetail.vue" line="163" mnemonic="9" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b9cf60ce-e76d-4dca-bc79-5a00efff4368" name="Default" comment="提交">
+    <list default="true" id="b9cf60ce-e76d-4dca-bc79-5a00efff4368" name="Default" comment="版本更新">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_persistence_persistence_api_1_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjrt_1_9_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mongodb_bson_4_0_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mongodb_mongodb_driver_core_4_0_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mongodb_mongodb_driver_sync_4_0_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_mongodb_2_3_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_jpa_2_1_10_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_mongodb_3_0_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_orm_5_2_9_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fox-shop-admin/src/main/java/com/fh/authorization/LogsAop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fox-shop-admin/src/main/java/com/fh/springSecurity/vo/logs/entity/Logs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fox-shop-admin/src/main/java/com/fh/springSecurity/vo/logs/repository/LogsRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fox-shop-web/src/components/page/pms/brandEcharts.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fox-shop-admin/fox-shop-admin.iml" beforeDir="false" afterPath="$PROJECT_DIR$/fox-shop-admin/fox-shop-admin.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fox-shop-admin/src/main/java/com/fh/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/fox-shop-admin/src/main/java/com/fh/login/LoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fox-shop-admin/src/main/java/com/fh/authorization/LoginAnnotation.java" beforeDir="false" afterPath="$PROJECT_DIR$/fox-shop-admin/src/main/java/com/fh/authorization/LoginAnnotation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fox-shop-admin/src/main/java/com/fh/springSecurity/filter/JwtAuthenticationTokenFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/fox-shop-admin/src/main/java/com/fh/springSecurity/filter/JwtAuthenticationTokenFilter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fox-shop-admin/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/fox-shop-admin/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fox-shop-admin/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/fox-shop-admin/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fox-shop-admin/target/classes/com/fh/LoginController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fox-shop-admin/target/classes/com/fh/authorization/LoginAnnotation.class" beforeDir="false" afterPath="$PROJECT_DIR$/fox-shop-admin/target/classes/com/fh/authorization/LoginAnnotation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fox-shop-admin/target/classes/com/fh/springSecurity/filter/JwtAuthenticationTokenFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/fox-shop-admin/target/classes/com/fh/springSecurity/filter/JwtAuthenticationTokenFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fox-shop-commons/fox-shop-commons.iml" beforeDir="false" afterPath="$PROJECT_DIR$/fox-shop-commons/fox-shop-commons.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fox-shop-model/fox-shop-model.iml" beforeDir="false" afterPath="$PROJECT_DIR$/fox-shop-model/fox-shop-model.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fox-shop-mybatis-plus-generator/fox-shop-mybatis-plus-generator.iml" beforeDir="false" afterPath="$PROJECT_DIR$/fox-shop-mybatis-plus-generator/fox-shop-mybatis-plus-generator.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fox-shop-parent.iml" beforeDir="false" afterPath="$PROJECT_DIR$/fox-shop-parent.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fox-shop-qms/fox-shop-qms.iml" beforeDir="false" afterPath="$PROJECT_DIR$/fox-shop-qms/fox-shop-qms.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fox-shop-qms/src/main/java/com/fh/brand/controller/PmsBrandController.java" beforeDir="false" afterPath="$PROJECT_DIR$/fox-shop-qms/src/main/java/com/fh/brand/controller/PmsBrandController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fox-shop-system/fox-shop-system.iml" beforeDir="false" afterPath="$PROJECT_DIR$/fox-shop-system/fox-shop-system.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fox-shop-ums/fox-shop-ums.iml" beforeDir="false" afterPath="$PROJECT_DIR$/fox-shop-ums/fox-shop-ums.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fox-shop-web/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/fox-shop-web/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fox-shop-web/src/api/brand.js" beforeDir="false" afterPath="$PROJECT_DIR$/fox-shop-web/src/api/brand.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fox-shop-web/src/components/page/BaseCharts.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fox-shop-web/src/components/page/BaseForm.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fox-shop-web/src/components/page/Donate.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fox-shop-web/src/components/page/DragDialog.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fox-shop-web/src/components/page/DragList.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fox-shop-web/src/components/page/Markdown.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fox-shop-web/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/fox-shop-web/src/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fox-shop-web/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/fox-shop-web/src/router/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,9 +117,9 @@
       <list>
         <option value="FxmlFile" />
         <option value="HTML File" />
-        <option value="Vue Single File Component" />
         <option value="Interface" />
         <option value="Class" />
+        <option value="Vue Single File Component" />
       </list>
     </option>
   </component>
@@ -214,6 +253,7 @@
     <option name="importingSettings">
       <MavenImportingSettings>
         <option name="downloadSourcesAutomatically" value="true" />
+        <option name="jdkForImporter" value="1.8" />
       </MavenImportingSettings>
     </option>
   </component>
@@ -277,7 +317,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
     <property name="database.console.LAST_STATE" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/fox-shop-admin/target" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/代码/mall-admin-web-master" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -319,17 +359,6 @@
   <component name="RunManager">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -498,7 +527,10 @@
       <workItem from="1609032789557" duration="1081000" />
       <workItem from="1609037042986" duration="3406000" />
       <workItem from="1609056239712" duration="1334000" />
-      <workItem from="1609057777861" duration="14839000" />
+      <workItem from="1609057777861" duration="23575000" />
+      <workItem from="1609233667182" duration="10133000" />
+      <workItem from="1609244521181" duration="310000" />
+      <workItem from="1609244852962" duration="232000" />
     </task>
     <task id="LOCAL-00001" summary="成功启动">
       <created>1607476763248</created>
@@ -570,7 +602,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609069446907</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="版本更新">
+      <created>1609118689997</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1609118689997</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -730,7 +769,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="成功启动" />
     <MESSAGE value="提交" />
-    <option name="LAST_COMMIT_MESSAGE" value="提交" />
+    <MESSAGE value="版本更新" />
+    <option name="LAST_COMMIT_MESSAGE" value="版本更新" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -744,6 +784,11 @@
           <url>file://$PROJECT_DIR$/fox-shop-admin/src/main/java/com/fh/springSecurity/filter/RestAuthenticationEntryPoint.java</url>
           <line>21</line>
           <option name="timeStamp" value="233" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/mongoDBtest.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="234" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

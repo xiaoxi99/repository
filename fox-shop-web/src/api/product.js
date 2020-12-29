@@ -23,4 +23,11 @@ export function queryProductById(productId) {
     });
 };
 
+export function productCount() {
+    return request({
+        url: '/wow-api/product/pms-product/productCount',
+        method: 'get',
+    });
+};
+
 

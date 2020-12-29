@@ -48,6 +48,8 @@ public class PmsProductServiceImpl extends ServiceImpl<PmsProductMapper, PmsProd
     private IPmsSkuStockService skuStockService;
     @Autowired
     private IPmsProductLadderService ladderService;
+    @Autowired
+    private PmsProductMapper pmsProductMapper;
     @Override
     /*事务*/
     @Transactional
@@ -148,5 +150,9 @@ public class PmsProductServiceImpl extends ServiceImpl<PmsProductMapper, PmsProd
         });
         memberPriceService.removeByMap(map);
         memberPriceService.saveBatch(list);
+    }
+
+    public  List<Map<String, Object>> productCount(){
+       return pmsProductMapper.productCount();
     }
 }

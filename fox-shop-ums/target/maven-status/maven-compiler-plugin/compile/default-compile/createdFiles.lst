@@ -1,0 +1,15 @@
+com\fh\ums_member\controller\LevelController.class
+com\fh\role\controller\UmsRoleMenuRelationController.class
+com\fh\umsAdmin\controller\UmsAdminController.class
+com\fh\menu\service\IUmsMenuService.class
+com\fh\umsAdmin\service\IUmsAdminService.class
+com\fh\umsAdmin\service\IUmsAdminRoleRelationService.class
+com\fh\role\controller\UmsRoleResourceRelationController.class
+com\fh\umsAdmin\service\impl\UmsAdminRoleRelationServiceImpl.class
+com\fh\role\controller\UmsRoleController.class
+com\fh\menu\service\impl\UmsMenuServiceImpl.class
+com\fh\umsAdmin\service\impl\UmsAdminServiceImpl.class
+com\fh\menu\controller\UmsMenuController.class
+com\fh\resource\controller\UmsResourceController.class
+com\fh\resource\controller\UmsResourceCategoryController.class
+com\fh\umsAdmin\controller\UmsAdminRoleRelationController.class

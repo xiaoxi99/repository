@@ -1,0 +1,5 @@
+com\fh\productAttribute\controller\PmsProductAttributeController.class
+com\fh\pms\controller\PmsProductCategoryController.class
+com\fh\productAttribute\controller\CategoryController.class
+com\fh\brand\controller\PmsBrandController.class
+com\fh\product\controller\PmsProductController.class

@@ -8,48 +8,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b9cf60ce-e76d-4dca-bc79-5a00efff4368" name="Default" comment="版本更新">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_persistence_persistence_api_1_0_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjrt_1_9_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mongodb_bson_4_0_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mongodb_mongodb_driver_core_4_0_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mongodb_mongodb_driver_sync_4_0_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_mongodb_2_3_4_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_jpa_2_1_10_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_mongodb_3_0_4_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_orm_5_2_9_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fox-shop-admin/src/main/java/com/fh/authorization/LogsAop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fox-shop-admin/src/main/java/com/fh/springSecurity/vo/logs/entity/Logs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fox-shop-admin/src/main/java/com/fh/springSecurity/vo/logs/repository/LogsRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fox-shop-web/src/components/page/pms/brandEcharts.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fox-shop-admin/fox-shop-admin.iml" beforeDir="false" afterPath="$PROJECT_DIR$/fox-shop-admin/fox-shop-admin.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fox-shop-admin/src/main/java/com/fh/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/fox-shop-admin/src/main/java/com/fh/login/LoginController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fox-shop-admin/src/main/java/com/fh/authorization/LoginAnnotation.java" beforeDir="false" afterPath="$PROJECT_DIR$/fox-shop-admin/src/main/java/com/fh/authorization/LoginAnnotation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fox-shop-admin/src/main/java/com/fh/springSecurity/filter/JwtAuthenticationTokenFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/fox-shop-admin/src/main/java/com/fh/springSecurity/filter/JwtAuthenticationTokenFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fox-shop-admin/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/fox-shop-admin/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fox-shop-admin/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/fox-shop-admin/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fox-shop-admin/target/classes/com/fh/LoginController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fox-shop-admin/target/classes/com/fh/authorization/LoginAnnotation.class" beforeDir="false" afterPath="$PROJECT_DIR$/fox-shop-admin/target/classes/com/fh/authorization/LoginAnnotation.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fox-shop-admin/target/classes/com/fh/springSecurity/filter/JwtAuthenticationTokenFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/fox-shop-admin/target/classes/com/fh/springSecurity/filter/JwtAuthenticationTokenFilter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fox-shop-commons/fox-shop-commons.iml" beforeDir="false" afterPath="$PROJECT_DIR$/fox-shop-commons/fox-shop-commons.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fox-shop-model/fox-shop-model.iml" beforeDir="false" afterPath="$PROJECT_DIR$/fox-shop-model/fox-shop-model.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fox-shop-mybatis-plus-generator/fox-shop-mybatis-plus-generator.iml" beforeDir="false" afterPath="$PROJECT_DIR$/fox-shop-mybatis-plus-generator/fox-shop-mybatis-plus-generator.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fox-shop-parent.iml" beforeDir="false" afterPath="$PROJECT_DIR$/fox-shop-parent.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fox-shop-qms/fox-shop-qms.iml" beforeDir="false" afterPath="$PROJECT_DIR$/fox-shop-qms/fox-shop-qms.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fox-shop-model/src/main/java/com/fh/product/mapper/PmsProductMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/fox-shop-model/src/main/java/com/fh/product/mapper/PmsProductMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fox-shop-model/src/main/java/com/fh/product/service/IPmsProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/fox-shop-model/src/main/java/com/fh/product/service/IPmsProductService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fox-shop-model/src/main/java/com/fh/product/service/impl/PmsProductServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/fox-shop-model/src/main/java/com/fh/product/service/impl/PmsProductServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fox-shop-model/src/main/resources/mapper/PmsProductMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/fox-shop-model/src/main/resources/mapper/PmsProductMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fox-shop-model/target/classes/com/fh/product/mapper/PmsProductMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/fox-shop-model/target/classes/com/fh/product/mapper/PmsProductMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fox-shop-model/target/classes/com/fh/product/service/IPmsProductService.class" beforeDir="false" afterPath="$PROJECT_DIR$/fox-shop-model/target/classes/com/fh/product/service/IPmsProductService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fox-shop-model/target/classes/com/fh/product/service/impl/PmsProductServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/fox-shop-model/target/classes/com/fh/product/service/impl/PmsProductServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fox-shop-model/target/classes/mapper/PmsProductMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/fox-shop-model/target/classes/mapper/PmsProductMapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fox-shop-qms/src/main/java/com/fh/brand/controller/PmsBrandController.java" beforeDir="false" afterPath="$PROJECT_DIR$/fox-shop-qms/src/main/java/com/fh/brand/controller/PmsBrandController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fox-shop-system/fox-shop-system.iml" beforeDir="false" afterPath="$PROJECT_DIR$/fox-shop-system/fox-shop-system.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fox-shop-ums/fox-shop-ums.iml" beforeDir="false" afterPath="$PROJECT_DIR$/fox-shop-ums/fox-shop-ums.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fox-shop-web/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/fox-shop-web/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fox-shop-qms/src/main/java/com/fh/product/controller/PmsProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/fox-shop-qms/src/main/java/com/fh/product/controller/PmsProductController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fox-shop-qms/target/classes/com/fh/product/controller/PmsProductController.class" beforeDir="false" afterPath="$PROJECT_DIR$/fox-shop-qms/target/classes/com/fh/product/controller/PmsProductController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fox-shop-web/src/api/brand.js" beforeDir="false" afterPath="$PROJECT_DIR$/fox-shop-web/src/api/brand.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fox-shop-web/src/components/page/BaseCharts.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fox-shop-web/src/components/page/BaseForm.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fox-shop-web/src/components/page/Donate.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fox-shop-web/src/components/page/DragDialog.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fox-shop-web/src/components/page/DragList.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fox-shop-web/src/components/page/Markdown.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fox-shop-web/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/fox-shop-web/src/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fox-shop-web/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/fox-shop-web/src/router/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fox-shop-web/src/api/product.js" beforeDir="false" afterPath="$PROJECT_DIR$/fox-shop-web/src/api/product.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fox-shop-web/src/components/page/pms/brandEcharts.vue" beforeDir="false" afterPath="$PROJECT_DIR$/fox-shop-web/src/components/page/pms/brandEcharts.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -328,7 +302,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.importing" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
     <property name="two.files.diff.last.used.folder" value="$PROJECT_DIR$/fox-shop-admin/target" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -530,7 +504,9 @@
       <workItem from="1609057777861" duration="23575000" />
       <workItem from="1609233667182" duration="10133000" />
       <workItem from="1609244521181" duration="310000" />
-      <workItem from="1609244852962" duration="232000" />
+      <workItem from="1609244852962" duration="2736000" />
+      <workItem from="1609247598825" duration="662000" />
+      <workItem from="1609248280215" duration="168000" />
     </task>
     <task id="LOCAL-00001" summary="成功启动">
       <created>1607476763248</created>
@@ -609,7 +585,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609118689997</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="版本更新">
+      <created>1609245162377</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1609245162377</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -767,6 +750,9 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/.." />
+    </ignored-roots>
     <MESSAGE value="成功启动" />
     <MESSAGE value="提交" />
     <MESSAGE value="版本更新" />

@@ -13,6 +13,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
+import java.util.Map;
 
 /**
  * <p>
@@ -30,24 +31,31 @@ public class PmsProductController {
     private IPmsProductService productService;
 
     @GetMapping
-    public CommonReturn queryProductData(Page<PmsProduct> page){
+    public CommonReturn queryProductData(Page<PmsProduct> page) {
         QueryWrapper<PmsProduct> wrapper = new QueryWrapper<>();
         wrapper.orderByDesc("sort");
-        IPage<PmsProduct> ipage = productService.page(page,wrapper);
+        IPage<PmsProduct> ipage = productService.page(page, wrapper);
         return CommonReturn.success(ipage);
     }
 
     @PostMapping
-    public CommonReturn saveOrUpdateProduct(@RequestBody PmsProductVO pmsProductVO){
+    public CommonReturn saveOrUpdateProduct(@RequestBody PmsProductVO pmsProductVO) {
         productService.saveOrUpdateProduct(pmsProductVO);
         return CommonReturn.success();
     }
 
     @GetMapping("/{productId}")
-    public CommonReturn queryProductById(@PathVariable("productId") Integer productId){
+    public CommonReturn queryProductById(@PathVariable("productId") Integer productId) {
         PmsProductVO pmsProductVO = productService.queryProductById(productId);
         /*父子类之间数据转换 第一个为父类 */
         return CommonReturn.success(pmsProductVO);
+    }
+
+    @GetMapping("/productCount")
+    public CommonReturn productCount() {
+        List<Map<String, Object>> list = productService.productCount();
+        /*父子类之间数据转换 第一个为父类 */
+        return CommonReturn.success(list);
     }
 
 }

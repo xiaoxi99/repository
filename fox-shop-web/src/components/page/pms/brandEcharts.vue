@@ -1,11 +1,11 @@
 <template>
   <div>
-    <div ref="main" style="width: 600px;height:400px;"></div>
+    <div ref="main" style="width: 900px;height:400px;"></div>
   </div>
 </template>
 
 <script>
-import {queryBrandEcharts} from "../../../api/brand";
+import {productCount} from "@/api/product";
 
 export default {
   name: "brandEcharts",
@@ -14,15 +14,15 @@ export default {
       option: {
         xAxis: {
           type: 'category',
-          data: ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun']
+          data: []
         },
         yAxis: {
           type: 'value'
         },
-        series: [{
-          data: [120, 500, 150, 80, 70, 110, 130],
+        series: {
+          data: [],
           type: 'bar'
-        }]
+        }
       }
     }
   },
@@ -30,19 +30,27 @@ export default {
   methods: {
     /*初始化echarts*/
     drawLine() {
-      let myChart = this.$echarts.init(this.$refs.main)
-      myChart.setOption(this.option);
-    },
-    /*获取品牌数据*/
-    queryBrand() {
-      queryBrandEcharts().then(result=>{
+      productCount().then(result => {
+        let data = result.data.data;
+        for (let i = 0; i < data.length; i++) {
+          this.option.series.data.push(data[i].count)
 
+          if (data[i].beandName==null || data[i].beandName == ""){
+            this.option.xAxis.data.push("未知品牌")
+          }else{
+            this.option.xAxis.data.push(data[i].beandName)
+          }
+
+        }
+      /*初始化*/
+        let myChart = this.$echarts.init(this.$refs.main)
+        myChart.setOption(this.option);
       })
-    }
+
+    },
   },
 
   mounted() {
-    this.queryBrand();
     this.drawLine();
   }
 }
